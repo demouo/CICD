@@ -12,7 +12,8 @@
 1. Fork这个仓库到你的GitHub账户
 2. 在仓库设置中启用GitHub Pages（Settings > Pages）
 3. 选择gh-pages分支作为部署源
-4. 推送更改到main分支，GitHub Actions将自动部署网站
+4. 左侧Action -> General 下拉找到workflow permission 勾选 Read and write permissions, Save
+5. 推送更改到main分支，GitHub Actions将自动部署网站
 
 ## CI/CD流程说明
 
